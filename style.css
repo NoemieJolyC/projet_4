@@ -31,7 +31,7 @@ a:hover {
     width: 100%;
     clear: both;
     background: 50% 50% no-repeat;
-    padding: 0 50px;
+    padding: 0px 50px;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1039,4 +1039,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.none{
+    list-style: none;
+}
+
+.none_text{
+    text-decoration: none;
 }
