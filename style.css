@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: white;
 }
 
 .d-bloc button:hover {
@@ -284,7 +284,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 4em;
 }
 
 .navbar {
@@ -476,7 +476,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 50px!important;
 }
 
 .icon-lg {
@@ -526,7 +526,7 @@ button {
 }
 
 .showScrollTop {
-    font-size: 14px;
+    font-size: 16px;
     opacity: 1;
 }
 
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -686,7 +686,7 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 4em;
     font-family: "Open Sans";
 }
 
@@ -705,15 +705,16 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 3em;
     line-height: 1.4em;
+    font-weight: medium;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 1,5em;
     text-transform: uppercase;
-    font-weight: 700;
-    color: #333333!important;
+    font-weight: bold;
+    color: #000000!important;
 }
 
 .med-width-whitespace {
@@ -723,7 +724,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #000000!important;
 }
 
 h4 {
@@ -775,7 +776,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #000000!important;
 }
 
 .btn-atomic-tangerine {
@@ -1041,10 +1042,12 @@ h4 {
     }
 }
 
-.none{
-    list-style: none;
+/*les deux classes que j'ai rajouté*/
+
+.partenaires {
+    font-size: 1em;
 }
 
-.none_text{
-    text-decoration: none;
+ul {
+    list-style: none; /* <--- celle-ci  fonctionne */
 }
