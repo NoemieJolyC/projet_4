@@ -819,11 +819,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background-image: url("img/agence-la-panthere-compresse.jpg");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation-compresse.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1045,9 +1045,13 @@ h4 {
 /*les deux classes que j'ai rajouté*/
 
 .partenaires {
-    font-size: 1em;
+    font-size: 1,5em;
 }
 
 ul {
     list-style: none; /* <--- celle-ci  fonctionne */
+}
+
+.bold-page2 {
+    font-weight: bold;
 }
