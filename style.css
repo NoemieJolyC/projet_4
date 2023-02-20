@@ -776,7 +776,8 @@ h4 {
 }
 
 .tc-white {
-    color: #000000!important;
+    color:#FFFFFF!important;
+    text-shadow: #c27956 1px 0 10px;
 }
 
 .btn-atomic-tangerine {
@@ -1045,7 +1046,8 @@ h4 {
 /*les deux classes que j'ai rajouté*/
 
 .partenaires {
-    font-size: 1,5em;
+    font-size: 1.5em;
+    color: #000000;
 }
 
 ul {
@@ -1055,3 +1057,22 @@ ul {
 .bold-page2 {
     font-weight: bold;
 }
+
+.paragraphes-texte{
+    font-size: 20px;
+    color: grey;
+}
+
+.paragraphes-texte-italic{
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.paragraphes-texte-light{
+    font-weight: lighter;
+}
+
+.black{
+    color: black;
+}
+
